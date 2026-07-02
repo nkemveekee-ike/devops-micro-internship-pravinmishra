@@ -234,7 +234,7 @@ Choose books that improve:
 ## Book List
 
 
-1. ATOMIC HABITS BY JAMES CLEAR ![](screenshots\atomic-habits.jpg)
+1. ATOMIC HABITS BY JAMES CLEAR ![](screenshots/atomic-habits.jpg)
 
 
 2. THE 15 INVALUABLE LAWS OF GROWTH BY JOHN C. MAXWELL ![irreputable-law](screenshots/irreputable-law.jpg)
