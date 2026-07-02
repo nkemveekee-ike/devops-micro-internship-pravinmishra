@@ -13,11 +13,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | Ekweozor Nkemakonam Victoria|
+| **LinkedIn** |[ Ekweozor -Nkemakonam ] https://www.linkedin.com/in/ekweozor/|
+| **Location** | Abuja, Nigeria |
+| **Background** | DevOps, Cloud, AI & Automation Engineer |
+| **Goal** | Build secure, scalable, and automated cloud solutions |
 
 ---
 
