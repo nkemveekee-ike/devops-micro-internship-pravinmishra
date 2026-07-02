@@ -144,13 +144,14 @@ Include this line:
 # **This Is the Life I'm Building.**
 
 ### *A journalist's look at my life 3–7 years from now.* 
-![victoria-nkemakonam](screenshots\victoria-nkemakonam.jpeg)
+![victoria-nkemakonam](screenshots/victoria-nkemakonam.jpeg)
 
 
-Few people would have imagined that the woman who once questioned whether she truly belonged in technology would one day become a trusted DevOps & Cloud Engineer, mentor aspiring professionals, and speak on global stages. Yet that transformation did not happen overnight. It began with one decision—to never stop learning.
+Few people would have imagined that the woman who once questioned whether she truly belonged in technology would one day become a trusted DevOps & Cloud Engineer, mentor aspiring professionals, and speak on global stages. Yet that transformation did not happen overnight. It began with one decision to never stop learning.
 
 Over the years, **Ekweozor Nkemakonam Victoria** established herself as a respected **DevOps & Cloud Engineer** and a trusted **DevOps & Cloud Consultant**, known for delivering reliable cloud solutions and helping organizations automate, scale, and modernize their technology infrastructure. She earned industry-recognized AWS certifications and strengthened her expertise through hands-on experience, believing that true competence is built through consistent practice before certification.
 
+![DMI Day](screenshots/dmi-day%20.jpeg)
 Her GitHub portfolio became a reflection of her journey, showcasing real-world DevOps and cloud projects involving Linux, Git, Docker, Kubernetes, Infrastructure as Code, CI/CD pipelines, AWS cloud deployments, and **Agentic AI** solutions. Rather than building projects simply to complete a portfolio, she built solutions that solved real business problems and demonstrated practical engineering skills.
 
 She also published technical articles documenting her learning journey, project experiences, lessons learned, and practical insights from working with DevOps, Cloud, and Agentic AI. Through LinkedIn, technical blogs, and other professional platforms, she consistently shared knowledge that made complex concepts easier for beginners to understand. Her willingness to teach, encourage, and give back earned her the respect of both peers and aspiring professionals.
@@ -450,7 +451,7 @@ Status is online
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
+- LinkedIn Post URL: **https://www.linkedin.com/posts/ekweozor_devops-cloudengineering-aws-share-7478023458841497600-CH77/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI**  
 - Blog / Medium : **ADD LINK HERE**  
 
 ---
