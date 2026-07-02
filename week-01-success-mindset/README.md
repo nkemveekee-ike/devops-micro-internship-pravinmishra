@@ -237,7 +237,7 @@ Choose books that improve:
 1. ATOMIC HABITS BY JAMES CLEAR ![](screenshots/atomic-habits.jpg)
 
 
-2. THE 15 INVALUABLE LAWS OF GROWTH BY JOHN C. MAXWELL ![irreputable-law](screenshots/irreputable-law.jpg)
+2. THE 15 INVALUABLE LAWS OF GROWTH BY JOHN C. MAXWELL ![Irreputable-law](screenshots/Irreputable-law.jpg)
 
 
 3. THE DANIE PLAN BY RICK WARREN ![the-daniels-plan](screenshots/the-daniels-plan.jpg)
