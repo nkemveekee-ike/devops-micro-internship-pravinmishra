@@ -79,9 +79,7 @@ Add your screenshot here.
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
-
-`__________________________`
+https://github.com/nkemveekee-ike/devops-micro-internship-pravinmishra
 
 ---
 
