@@ -44,6 +44,8 @@ Fork the provided GitHub repository, clone it to your local machine, and open it
 Add your screenshot here.
 
 ![Claude reading project files and responding](screenshots/clone-repository.png)
+
+
 # Task 3 — Observe the Agentic Loop
 
 ## Goal
