@@ -46,13 +46,13 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![alt text](<screenshots/medeium post.png>)
 
 ---
 
 ### Submission Field
 
-Blog Link:
+https://medium.com/@nkemveekee/reflection-week-2-from-fear-to-confidence-bc1917685659
 
 `__________________________________________`
 
@@ -92,7 +92,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![alt text](<screenshots/linkedln post-week8.png>)
 
 ---
 
@@ -101,13 +101,43 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+Going into this week, I thought I was going to learn more about AI.
+
+I did.
+
+But I also learned a lot about myself.
+
+From Skills and Subagents to MCP, Hooks, Permissions, and Memory, I discovered that Agentic AI is much more than asking questions and getting answers. It’s about building structured workflows, using the right tools, and understanding that AI still needs human judgment.
+
+One moment I'll never forget was spending almost 4 hours trying to figure out why my screenshots weren't appearing where they should.
+
+A few weeks ago, I probably would have closed my laptop and said, "I cannot come and die because of this." 😄
+
+This time, I stayed.
+I investigated.
+
+I learned.
+
+That experience taught me something bigger than any technical concept: confidence is built by working through challenges, not by avoiding them.
+
+I'm also leaving Week 2 with a new habit. Before I start or submit any assignment, I'll carefully read the instructions, verify my folder structure, check my work with git status, and make sure I've completed every required step.
+
+I'm grateful for how much I've grown in just two weeks, and I'm excited to keep learning.
+
+
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( https://lnkd.in/eCJYseYp ).
+
+
+
+#DMIByPravin Mishra#AgenticAI #ClaudeCode #DevOps #LearningInPublic
 ```
 
 ---
 
 ### LinkedIn Post Link:
 
+https://www.linkedin.com/posts/ekweozor_claudecode-devops-learninginpublic-ugcPost-7481332333581795328-9FIt/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI
 `__________________________________________`
 
 ---
