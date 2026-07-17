@@ -20,7 +20,7 @@ Install Node.js and npm on the Ubuntu VM and verify the installation.
 
 #### Screenshot 1 — Output of `node -v && npm -v` showing installed versions
 
-![alt text](<screenshots/node version.png>)
+![screenshots](screenshots/node version.png)
 
 ---
 
@@ -149,7 +149,7 @@ https://www.linkedin.com/posts/ekweozor_devops-aws-ec2-share-7483127274054262784
 
 #### Screenshot — LinkedIn post showing the deployed application
 
-![alt text](<screenshots/linkedln post deploy.png>)
+![screenshots](screenshots/linkedln post deploy.png)
 
 ---
 
