@@ -34,9 +34,9 @@ Install Nginx, start the service, and confirm it is running.
 
 #### Screenshot 2 — Output of `systemctl status nginx --no-pager` showing Active (running)
 
-![alt text](<screenshots/nginx version.png>)
+![screenshots](screenshots/nginx-version.png)
 
-![alt text](<screenshots/nginx active running.png>)
+![screenshots](screenshots/nginx-active-running.png)
 
 ---
 
@@ -49,7 +49,7 @@ Clone the project repository and verify the project files are present.
 
 #### Screenshot 3 — Output of `ls` inside the `my-react-app` directory showing project files
 
-![alt text](<screenshots/react dir.png>)
+![screenshots](<screenshots/react dir.png>)
 
 ---
 
@@ -63,7 +63,7 @@ Update `App.js` with your full name and the current date.
 
 #### Screenshot 4 — `nano App.js` open showing your full name and date filled in
 
-![alt text](screenshots/.js-name.png)
+![screenshots](screenshots/js-name.png)
 
 ---
 
@@ -77,7 +77,7 @@ Install dependencies and generate the production build.
 
 #### Screenshot 5 — Output of `ls` inside `my-react-app` showing the `build/` folder generated
 
-![alt text](<screenshots/npm build.png>)
+![screenshots](screenshots/npm-build.png)
 
 ---
 
@@ -91,7 +91,7 @@ Copy the production build files to the Nginx web root directory.
 
 #### Screenshot 6 — Output of `ls /var/www/html/` showing the deployed build contents
 
-![alt text](<screenshots/nginx web root folder.png>)
+![screenshots](screenshots/nginx-web-root-folder.png)
 
 ---
 
@@ -105,13 +105,13 @@ Apply Nginx configuration for React routing and confirm the service is active.
 
 #### Screenshot 7 — Output of `systemctl is-active nginx` showing `active`
 
-![alt text](<screenshots/active nginx.png>)
+![screenshots](screenshots/active-nginx.png)
 
 ---
 
 #### Screenshot 8 — Output of `cat /etc/nginx/sites-available/default` showing the Nginx config
 
-![alt text](<screenshots/nginx site.png>)
+![screenshots](screenshots/nginx-site.png)
 
 ---
 
@@ -125,13 +125,13 @@ Verify the React application is publicly accessible via the server's public IP.
 
 #### Screenshot 9 — Output of `curl ifconfig.me` showing the server's public IP address
 
-![alt text](<screenshots/server IP.png>)
+![screenshots](screenshots/server-IP.png)
 
 ---
 
 #### Screenshot 10 — Browser showing the deployed React app at `http://<public-ip>` with your name and date visible
 
-![alt text](<screenshots/my react welcome.png>)
+![screenshots](<screenshots/my-react-welcome.png>)
 
 ---
 
@@ -163,17 +163,17 @@ https://www.linkedin.com/posts/ekweozor_devops-aws-ec2-share-7483127274054262784
 
 # Completion Checklist
 
-- [ ] Node.js and npm installed and verified (Screenshot 1)
-- [ ] Nginx installed and running (Screenshot 2)
-- [ ] Repository cloned and files verified (Screenshot 3)
-- [ ] App.js updated with full name and date (Screenshot 4)
-- [ ] Production build generated (Screenshot 5)
-- [ ] Build files deployed to Nginx web root (Screenshot 6)
-- [ ] Nginx configured and active (Screenshots 7 & 8)
-- [ ] Public IP retrieved (Screenshot 9)
-- [ ] React app accessible in browser with personal details visible (Screenshot 10)
-- [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+- [X ] Node.js and npm installed and verified (Screenshot 1)
+- [X] Nginx installed and running (Screenshot 2)
+- [X] Repository cloned and files verified (Screenshot 3)
+- [X] App.js updated with full name and date (Screenshot 4)
+- [X] Production build generated (Screenshot 5)
+- [X] Build files deployed to Nginx web root (Screenshot 6)
+- [X] Nginx configured and active (Screenshots 7 & 8)
+- [X] Public IP retrieved (Screenshot 9)
+- [X] React app accessible in browser with personal details visible (Screenshot 10)
+- [X] LinkedIn post published and URL submitted
+- [X] No sensitive data exposed
 
 ---
 
