@@ -20,7 +20,7 @@ Install Node.js and npm on the Ubuntu VM and verify the installation.
 
 #### Screenshot 1 — Output of `node -v && npm -v` showing installed versions
 
-Add your screenshot here.
+![alt text](<screenshots/node version.png>)
 
 ---
 
@@ -34,7 +34,9 @@ Install Nginx, start the service, and confirm it is running.
 
 #### Screenshot 2 — Output of `systemctl status nginx --no-pager` showing Active (running)
 
-Add your screenshot here.
+![alt text](<screenshots/nginx version.png>)
+
+![alt text](<screenshots/nginx active running.png>)
 
 ---
 
@@ -44,11 +46,10 @@ Add your screenshot here.
 
 Clone the project repository and verify the project files are present.
 
-### Evidence
 
 #### Screenshot 3 — Output of `ls` inside the `my-react-app` directory showing project files
 
-Add your screenshot here.
+![alt text](<screenshots/react dir.png>)
 
 ---
 
@@ -62,7 +63,7 @@ Update `App.js` with your full name and the current date.
 
 #### Screenshot 4 — `nano App.js` open showing your full name and date filled in
 
-Add your screenshot here.
+![alt text](screenshots/.js-name.png)
 
 ---
 
@@ -76,7 +77,7 @@ Install dependencies and generate the production build.
 
 #### Screenshot 5 — Output of `ls` inside `my-react-app` showing the `build/` folder generated
 
-Add your screenshot here.
+![alt text](<screenshots/npm build.png>)
 
 ---
 
@@ -90,7 +91,7 @@ Copy the production build files to the Nginx web root directory.
 
 #### Screenshot 6 — Output of `ls /var/www/html/` showing the deployed build contents
 
-Add your screenshot here.
+![alt text](<screenshots/nginx web root folder.png>)
 
 ---
 
@@ -104,13 +105,13 @@ Apply Nginx configuration for React routing and confirm the service is active.
 
 #### Screenshot 7 — Output of `systemctl is-active nginx` showing `active`
 
-Add your screenshot here.
+![alt text](<screenshots/active nginx.png>)
 
 ---
 
 #### Screenshot 8 — Output of `cat /etc/nginx/sites-available/default` showing the Nginx config
 
-Add your screenshot here.
+![alt text](<screenshots/nginx site.png>)
 
 ---
 
@@ -124,13 +125,13 @@ Verify the React application is publicly accessible via the server's public IP.
 
 #### Screenshot 9 — Output of `curl ifconfig.me` showing the server's public IP address
 
-Add your screenshot here.
+![alt text](<screenshots/server IP.png>)
 
 ---
 
 #### Screenshot 10 — Browser showing the deployed React app at `http://<public-ip>` with your name and date visible
 
-Add your screenshot here.
+![alt text](<screenshots/my react welcome.png>)
 
 ---
 
@@ -140,7 +141,7 @@ Add your screenshot here.
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+https://www.linkedin.com/posts/ekweozor_devops-aws-ec2-share-7483127274054262784-mAvL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI
 
 `__________________________`
 
@@ -148,7 +149,7 @@ Paste your LinkedIn post URL here:
 
 #### Screenshot — LinkedIn post showing the deployed application
 
-Add your screenshot here.
+![alt text](<screenshots/linkedln post deploy.png>)
 
 ---
 
