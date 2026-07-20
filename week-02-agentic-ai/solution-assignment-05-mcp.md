@@ -20,9 +20,9 @@ Generate a GitHub Personal Access Token (PAT) that will be used for MCP authenti
 
 #### Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 
-![alt text](<screenshots/GitHub token creation page .png>)
+![screenshots](<screenshots/GitHub-token-creation-page .png>)
 
-![alt text](<screenshots/GitHub token creation page2.png>)
+![screenshots](<screenshots/GitHub-token-creation-page2.png>)
 
 ---
 
@@ -36,7 +36,7 @@ Create and configure the `.mcp.json` file to define the GitHub MCP server.
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
-![alt text](<screenshots/.mcp.json open in VS Code .png>)
+![screenshots](<screenshots/.mcp-json-open-in-VS-Code.png>)
 
 ---
 
@@ -50,7 +50,7 @@ Store your GitHub token securely in `.claude/settings.local.json` and ensure it 
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
-![alt text](screenshots/settings.local.json.png)
+![screenshots](screenshots/settings-loca-json.png)
 
 ---
 
@@ -64,7 +64,7 @@ Confirm that the GitHub MCP server is successfully connected inside Claude Code.
 
 #### Screenshot 4 — `/mcp` output showing `github: connected`
 
-![alt text](<screenshots/mcp output showing GitHub.png>)
+![screenshots](<screenshots/mcp-output-showing-GitHub.png>)
 
 ---
 
@@ -78,7 +78,7 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 #### Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
 
-![alt text](<screenshots/Claude's response showing the GitHub MCP.png>)
+![screenshots](<screenshots/Claudes-response-showing-the-GitHub-MCP.png>)
 
 ---
 
@@ -104,21 +104,21 @@ https://github.com/nkemveekee-ike/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 Confirm below:
 
-- [ ] `settings.local.json` is added to `.gitignore`
-- [ ] GitHub token is NOT exposed in repository or screenshots
+- [X] `settings.local.json` is added to `.gitignore`
+- [X] GitHub token is NOT exposed in repository or screenshots
 
 ---
 
 # Completion Checklist
 
-- [ ] GitHub PAT created with correct scopes (`repo`, `read:user`)
-- [ ] `.mcp.json` created at project root
-- [ ] `.claude/settings.local.json` contains token (hidden in screenshot)
-- [ ] `.claude/settings.local.json` is NOT committed
-- [ ] `/mcp` shows GitHub connection as active
-- [ ] Live GitHub query returns real repository data
-- [ ] All required screenshots added
-- [ ] GitHub repository URL included
+- [X] GitHub PAT created with correct scopes (`repo`, `read:user`)
+- [X] `.mcp.json` created at project root
+- [X] `.claude/settings.local.json` contains token (hidden in screenshot)
+- [X] `.claude/settings.local.json` is NOT committed
+- [X] `/mcp` shows GitHub connection as active
+- [X] Live GitHub query returns real repository data
+- [X] All required screenshots added
+- [X] GitHub repository URL included
 
 ---
 

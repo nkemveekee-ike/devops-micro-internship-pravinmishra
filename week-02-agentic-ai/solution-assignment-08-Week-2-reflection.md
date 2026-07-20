@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-![alt text](<screenshots/medeium post.png>)
+![SCREEMSHOTS](<screenshots/medeium-post.png>)
 
 ---
 
@@ -92,7 +92,7 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-![alt text](<screenshots/linkedln post-week8.png>)
+![screenshots](<screenshots/linkedln-post-week8.png>)
 
 ---
 
@@ -154,15 +154,15 @@ https://www.linkedin.com/posts/ekweozor_claudecode-devops-learninginpublic-ugcPo
 
 # Completion Checklist
 
-* [ ] Blog written with required structure
-* [ ] Blog includes at least 2–3 Week 2 topics
-* [ ] Blog is publicly accessible
-* [ ] LinkedIn post created
-* [ ] Required P.S. line included
-* [ ] LinkedIn post content copied in submission field
-* [ ] Blog link added
-* [ ] LinkedIn post link added
-* [ ] Screenshots added to GitHub repo
+* [X] Blog written with required structure
+* [X] Blog includes at least 2–3 Week 2 topics
+* [X] Blog is publicly accessible
+* [X] LinkedIn post created
+* [X] Required P.S. line included
+* [X] LinkedIn post content copied in submission field
+* [X] Blog link added
+* [X] LinkedIn post link added
+* [X] Screenshots added to GitHub repo
 
 ---
 

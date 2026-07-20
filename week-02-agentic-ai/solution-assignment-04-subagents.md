@@ -20,7 +20,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
-![CLAUDE AGENTIC](screenshots/.cluade-agentic-ass4.png)
+![screenshots](screenshots/.cluade-agentic-ass4.png)
 
 ---
 
@@ -54,13 +54,13 @@ The tf-writer uses inherit instead of a specific model because it can use the de
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-![screenshots security auditor](screenshots/security-auditor.md.png)
+![screenshots](screenshots/security-auditor.md.png)
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-![screenshots cost optimizer](screenshots/cost-optimizer.md.png)
+![screenshots](screenshots/cost-optimizer.md.png)
 
 ---
 
@@ -74,19 +74,19 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-![screenshot claude delegation](<screenshots/Claude delegation message1.png>)
+![screenshotS](<screenshots/Claude-delegation-message1.png>)
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-![secreenshots security audit report](<screenshots/Security audit report output.png>)
+![screenshots](<screenshots/Security-audit-report-output.png>)
 
-![alt text](<screenshots/Security audit report output2.png>)
+![screenshots](<screenshots/Security-audit-report-output2.png>)
 
 ---
 
-# Task 4 — Run the Cost Optimizer
+# Task 4 — Run the Cost Optimizer                      
 
 ## Goal
 
@@ -96,9 +96,9 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-![alt text](<screenshots/Cost optimization report output1.png>)
+![screenshots](<screenshots/Cost-optimization-report-output1.png>)
 
-![alt text](<screenshots/Cost optimization report output2.png>)
+![screenshots](<screenshots/Cost-optimization-report-output2.png>)
 
 ---
 
@@ -121,16 +121,16 @@ https://github.com/nkemveekee-ike/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 # Completion Checklist
 
-- [ ] `.claude/agents/` folder contains all 3 agent files
-- [ ] Screenshot 2 shows correct `security-auditor.md` configuration
-- [ ] Screenshot 3 shows correct `cost-optimizer.md` configuration
-- [ ] All 3 written answers completed 
-- [ ] Security auditor executed successfully
-- [ ] Cost optimizer executed successfully
-- [ ] Security report is visible with findings
-- [ ] Cost report is visible with recommendations
-- [ ] All required screenshots added
-- [ ] GitHub repo updated with agents
+- [X] `.claude/agents/` folder contains all 3 agent files
+- [X] Screenshot 2 shows correct `security-auditor.md` configuration
+- [X] Screenshot 3 shows correct `cost-optimizer.md` configuration
+- [X] All 3 written answers completed 
+- [X] Security auditor executed successfully
+- [X] Cost optimizer executed successfully
+- [X] Security report is visible with findings
+- [X] Cost report is visible with recommendations
+- [X] All required screenshots added
+- [X] GitHub repo updated with agents
 
 ---
 

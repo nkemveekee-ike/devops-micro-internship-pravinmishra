@@ -20,7 +20,7 @@ Create the required `.claude/skills/` directory structure for all skills.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
-![Screenshots assign3-scensh](screenshots/assign3-scnsh.png)
+![Screenshots](screenshots/assign3-scnsh.png)
 
 
 ---
@@ -35,14 +35,14 @@ Place all required skill files into their correct directories and verify their c
 
 #### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 
-![Screenshots assign3-scren2](screenshots/assign3-scren2.png)
+![Screenshots](screenshots/assign3-scren2.png)
 
 
 ---
 
 #### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
-![Screenshots assign3-scrn3](screenshots/assign3-scrn3.png)
+![Screenshots](screenshots/assign3-scrn3.png)
 
 ---
 
@@ -56,16 +56,16 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 #### Screenshot 4 — Claude's response showing the scaffold complete with the file list
 
-![Screenshots assign3-scrn4-1](screenshots/assign3-scrn4-1.png)
+![Screenshots](screenshots/assign3-scrn4-1.png)
 
 
 
-![Screenshots assign3-scrn4-3](screenshots/assign3-scrn4-3.png)
+![Screenshots](screenshots/assign3-scrn4-3.png)
 ---
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
-![Screenshots assign3-scrn5](screenshots/assign3-scrn5.png)
+![Screenshots](screenshots/assign3-scrn5.png)
 
 ---
 
@@ -79,13 +79,11 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 #### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
-![Screenshots assign3-scrn6](screenshots/assign3-scrn6-1.png)
+![Screenshots](screenshots/assign3-scrn6-1.png)
 
+![Screenshots](screenshots/assin3-scrn6-2.png)
 
-![Screenshots assign3-scrn6-2](screenshots/assin3-scrn6-2.png)
-
-
-![Screenshots assign3-scrn4-1](screenshots/assign3-scrn6-3.png)
+![Screenshots](screenshots/assign3-scrn6-3.png)
 ---
 
 # Submission Instructions
@@ -111,16 +109,16 @@ https://www.linkedin.com/posts/ekweozor_devops-cloudcomputing-github-ugcPost-748
 
 # Completion Checklist
 
-- [ ] `.claude/skills/` folder created with all 4 skill folders
-- [ ] All skill files placed correctly
-- [ ] `tf-plan/SKILL.md` shows correct `allowed-tools` restrictions
-- [ ] `/scaffold-terraform` executed successfully
-- [ ] Terraform files generated inside `terraform/` folder
-- [ ] `terraform init` executed successfully
-- [ ] `/tf-plan` executed and output analyzed by Claude
-- [ ] All required screenshots added
-- [ ] GitHub repository URL included
-- [ ] LinkedIn post URL included
+- [X] `.claude/skills/` folder created with all 4 skill folders
+- [X] All skill files placed correctly
+- [X] `tf-plan/SKILL.md` shows correct `allowed-tools` restrictions
+- [X] `/scaffold-terraform` executed successfully
+- [X] Terraform files generated inside `terraform/` folder
+- [X] `terraform init` executed successfully
+- [X] `/tf-plan` executed and output analyzed by Claude
+- [X] All required screenshots added
+- [X] GitHub repository URL included
+- [X] LinkedIn post URL included
 
 ---
 

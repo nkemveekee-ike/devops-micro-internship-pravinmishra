@@ -20,7 +20,7 @@ Discover exactly where Claude Code stores memory for this project.
 
 #### Screenshot 1 — Memory file path shown by Claude
 
-![alt text](screenshots/Memory.png)
+![screenshots](screenshots/Memory.png)
 
 ---
 
@@ -34,15 +34,15 @@ Teach Claude three specific facts about the project and instruct it to save them
 
 #### Screenshot 2 — Claude confirming the memory was saved
 
-![alt text](<screenshots/confirming the memory.png>)
+![screenshots](<screenshots/confirming-the-memory.png>)
 
 ---
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
-![alt text](<screenshots/The MEMORY1.png>)
+![screenshots](<screenshots/The-MEMORY1.png>)
 
-![alt text](<screenshots/The MEMORY.md2.png>)
+![screenshots](<screenshots/The-MEMORY-md2.png>)
 
 ---
 
@@ -56,7 +56,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 #### Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
-![alt text](<screenshots/VS Code reopened with a fresh.png>)
+![screenshots](<screenshots/VS-Code-reopened-with-a-fresh.png>)
 
 ---
 
@@ -70,13 +70,13 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 #### Screenshot 5 — Claude recalling hero section colors
 
-![alt text](<screenshots/Claude recalling  hero.png>)
+![screenshots](<screenshots/Claude-recalling-hero.png>)
 
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
-![alt text](<screenshots/Claude refusing JavaScript.png>)
+![screenshots](<screenshots/Claude-refusing-JavaScript.png>)
 
 ---
 
@@ -107,14 +107,14 @@ https://github.com/nkemveekee-ike/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 # Completion Checklist
 
-- [ ] Memory file path identified (Screenshot 1)
-- [ ] Memory successfully saved via prompt (Screenshot 2)
-- [ ] `MEMORY.md` shows stored content (Screenshot 3)
-- [ ] Fresh session opened after full restart (Screenshot 4)
-- [ ] Claude recalled hero colors correctly (Screenshot 5)
-- [ ] Claude refused JavaScript request based on memory (Screenshot 6)
-- [ ] All screenshots added and committed to GitHub repo
-- [ ] Linkedin post created.
+- [X] Memory file path identified (Screenshot 1)
+- [X] Memory successfully saved via prompt (Screenshot 2)
+- [X] `MEMORY.md` shows stored content (Screenshot 3)
+- [X] Fresh session opened after full restart (Screenshot 4)
+- [X] Claude recalled hero colors correctly (Screenshot 5)
+- [X] Claude refused JavaScript request based on memory (Screenshot 6)
+- [X] All screenshots added and committed to GitHub repo
+- [X] Linkedin post created.
 
 ---
 
