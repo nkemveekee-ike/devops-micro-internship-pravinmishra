@@ -1,0 +1,25 @@
+========================================
+Linux Incident Triage Report
+========================================
+Full Name: <Ekweozor Victoria Nkemakonam>
+Timestamp: 2026-07-19T17:06:49Z
+Hostname: DESKTOP-9OI8R1B
+Target Service: nginx
+Target URL: http://localhost
+
+[FAIL] Nginx service is not active
+[FAIL] Port 80 is not listening
+[PASS] Local HTTP check returned status 200
+[FAIL] Root disk usage is 64444864%
+[PASS] Available memory is  MB
+
+Recent Nginx service logs (last 5 lines):
+ No readable Nginx journal entries were found.
+
+Summary:
+PASS: 2
+WARN: 0
+FAIL: 3
+Overall Status: FAIL
+Script Exit Code: 2
+Report File: /c/Users/hp/devops-micro-internship-pravinmishra/week-03-agentic-linux/reports/linux-health-report.txt
