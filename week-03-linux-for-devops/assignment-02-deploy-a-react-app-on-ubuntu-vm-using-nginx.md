@@ -149,7 +149,7 @@ https://www.linkedin.com/posts/ekweozor_devops-aws-ec2-share-7483127274054262784
 
 #### Screenshot — LinkedIn post showing the deployed application
 
-![screenshots](screenshots/linkedln post deploy.png)
+![screenshots](screenshots/linkedln-post-deploy.png)
 
 ---
 
