@@ -144,7 +144,7 @@ Include this line:
 # **This Is the Life I'm Building.**
 
 ### *A journalist's look at my life 3–7 years from now.* 
-![victoria-nkemakonam](screenshots/victoria-nkemakonam.jpeg)
+![screenshots](screenshots/victoria-nkemakonam.jpeg)
 
 
 Few people would have imagined that the woman who once questioned whether she truly belonged in technology would one day become a trusted DevOps & Cloud Engineer, mentor aspiring professionals, and speak on global stages. Yet that transformation did not happen overnight. It began with one decision to never stop learning.
@@ -234,34 +234,33 @@ Choose books that improve:
 ## Book List
 
 
-1. ATOMIC HABITS BY JAMES CLEAR ![](screenshots/atomic-habits.jpg)
+1. ATOMIC HABITS BY JAMES CLEAR ![screenshots](screenshots/atomic-habits.jpg)
 
 
-2. THE 15 INVALUABLE LAWS OF GROWTH BY JOHN C. MAXWELL ![Irreputable-law](screenshots/Irreputable-law.jpg)
+2. THE 15 INVALUABLE LAWS OF GROWTH BY JOHN C. MAXWELL ![screenshots](screenshots/Irreputable-law.jpg)
 
 
-3. THE DANIE PLAN BY RICK WARREN ![the-daniels-plan](screenshots/the-daniels-plan.jpg)
+3. THE DANIE PLAN BY RICK WARREN ![screenshots](screenshots/the-daniels-plan.jpg)
+
+4. THE 5AM CLUB BYROBIN SHARMA  ![screenshots](screenshots/the-5am-club.jpg)
 
 
-4. THE 5AM CLUB BYROBIN SHARMA  ![the-5am-club](screenshots/the-5am-club.jpg)
+5. EVERYONE COMMUNICATES, FEW CONNECT BY JOHN C. MAXWELL ![screenshots](screenshots/everyone-communicates.jpg)
 
 
-5. EVERYONE COMMUNICATES, FEW CONNECT BY JOHN C. MAXWELL ![everyone-communicates](screenshots/everyone-communicates.jpg)
+6. THE TOTAL MONEY MAKEOVER BY DAVE RAMSEY ![screenshots](screenshots/the-total-money.jpg)
 
 
-6. THE TOTAL MONEY MAKEOVER BY DAVE RAMSEY ![the-total-money](screenshots/the-total-money.jpg)
+7. GARDEN CITY BY JOHN MARK CORNER ![screenshots](screenshots/garden-city.jpg)
 
 
-7. GARDEN CITY BY JOHN MARK CORNER ![garden-city](screenshots/garden-city.jpg)
+8. DEVELOPING THE LEADER WITHIN YOU 2.0 JOHN C. MAXWELL ![screenshots](screenshots/developing-leaders.jpg)
 
 
-8. DEVELOPING THE LEADER WITHIN YOU 2.0 JOHN C. MAXWELL ![](screenshots/developing-leaders.jpg)
+9. THE 21 IRREFUTABLE LAWS OF LEADERSHIP BY JOHN C. MAXWELL ![screenshots](screenshots/21-irreputable.jpg)
 
 
-9. THE 21 IRREFUTABLE LAWS OF LEADERSHIP BY JOHN C. MAXWELL ![21-irreputable](screenshots/21-irreputable.jpg)
-
-
-10. THE PSYCHOLOGY OF MONEY BY MORGAN HOUSEL ![](screenshots/psychology-of-money.jpg)
+10. THE PSYCHOLOGY OF MONEY BY MORGAN HOUSEL ![screenshots](screenshots/psychology-of-money.jpg)
 
 ---
 
