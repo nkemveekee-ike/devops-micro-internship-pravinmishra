@@ -383,7 +383,7 @@ Create a final Bash script using functions to organize reusable code.
 
 #### Screenshot 1 — Content of `final-automation.sh`
 
-![screenshots](screenshotS/A5-T8-S1.png)
+![screenshots](screenshots/A5-T8-S1.png)
 
 ---
 

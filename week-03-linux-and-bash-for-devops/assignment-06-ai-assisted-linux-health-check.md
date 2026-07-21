@@ -62,7 +62,7 @@ Tell Claude exactly what this project does and what it is not allowed to do.
 
 #### Screenshot 3 — CLAUDE.md open in VS Code showing all four sections (Project Overview, Incident Workflow, Safety Rules, Output Rules)
 
-![screensots](screenshots/Screenshot%203%20-%20CLAUDE.md.png)
+![screensots](screenshots/A6-3-CLAUDE.md.png)
 
 ---
 
@@ -142,7 +142,7 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
 
-Screenshot 6 - Middle section ![screenshots](screenshots/A6-6-Middle-section.png)
+ ![screenshots](screenshots/A6-6-Middle-section.png)
 
 ---
 
@@ -255,7 +255,7 @@ Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
 
 #### Screenshot 12 — `/linux-triage` output for the healthy server
 
-linux-triage ![screenshots](screenshots/linux-triage.png)
+ ![screenshots](screenshots/linux-triage.png)
 
 ---
 

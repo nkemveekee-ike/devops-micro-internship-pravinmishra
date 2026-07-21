@@ -86,7 +86,7 @@ Verify the deployed website is publicly accessible and the footer contains your 
 
 #### Screenshot 5 — Output of `curl ifconfig.me` showing the server's public IP address
 
-![alt text](<screenshots/output of configme.png>)
+![alt text](<screenshots/output-of-configme.png>)
 
 ---
 
@@ -106,7 +106,7 @@ Verify the deployed website and Nginx service are healthy.
 
 #### Screenshot 7 — Output of `systemctl is-enabled nginx`
 
-![alt text](<screenshots/nginx enabled.png>)
+![alt text](<screenshots/nginx-enabled.png>)
 
 ---
 

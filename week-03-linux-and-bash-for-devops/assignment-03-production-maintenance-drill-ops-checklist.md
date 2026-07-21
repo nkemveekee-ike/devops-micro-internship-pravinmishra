@@ -20,13 +20,13 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-![alt text](<screenshots/my react welcome.png>)
+![alt text](<screenshots/my-react-welcome.png>)
 
 ---
 
 #### Screenshot 2 — Output of `ip a`
 
-![alt text](<screenshots/ip a.png>)
+![alt text](<screenshots/ip-a.png>)
 
 ---
 
@@ -75,7 +75,7 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-![alt text](<screenshots/nginx health active.png>)
+![alt text](<screenshots/nginx-health-active.png>)
 
 ---
 
@@ -129,7 +129,7 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-![alt text](<screenshots/sudo journalctl .png>)
+![alt text](<screenshots/sudojournalctl .png>)
 
 ---
 
@@ -258,7 +258,7 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-![alt text](<screenshots/ngix config-SPA.png>)
+![alt text](<screenshots/ngix-config-SPA.png>)
 
 ---
 
