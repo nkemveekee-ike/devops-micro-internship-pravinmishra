@@ -56,7 +56,6 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather â
 
 #### Screenshot 4 â€” Claude's response to the first question, showing it read the files (tool calls visible)
 
-Add your screenshot here.
 ![CLAUDE RESPONSE](screenshots/claude-assign4-1.png)
 
 ![CLAUDE RESPONSE](screenshots/claude2-assign4.png)
