@@ -77,11 +77,11 @@ Week 02 → Agentic AI with Claude Code
 [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) 
 Week 03 → Linux for DevOps 
  [![Week 03 – Linux](./badges/week-03.svg)](./week-03-linux-for-devops/) 
-<!-- Week 03 → Linux & Bash for DevOps -->
-<!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
+Week 03 → Linux & Bash for DevOps 
+ [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) 
 
-<!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
+Week 04 → Git & GitHub 
+ [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) 
 
 <!-- Week 05 → DevOps Lifecycle & Agile -->
 <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
@@ -134,7 +134,7 @@ Week 03 → Linux for DevOps
 | 00 | Internet & Networking Basics |&nbsp; ✅ Completed<br>|&nbsp; ✅ Completed<br>| https://www.linkedin.com/posts/ekweozor_dmi-devops-agenticai-share-7474950986667724802-UljO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI| — |
 | 01 | Success Mindset |&nbsp; ✅ Completed<br>|&nbsp; ✅ Completed<br>| https://www.linkedin.com/posts/ekweozor_devops-cloudengineering-aws-share-7478023458841497600-CH77/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI | https://medium.com/@nkemveekee/how-a-devops-internship-changed-the-way-i-think-learn-and-grow-6d0aa71b2942?source=friends_link&sk=efdd1ebbff7a94a7ae90619cc253581a |
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_claudecode-devops-learninginpublic-ugcPost-7481332333581795328-9FIt/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI | https://medium.com/@nkemveekee/7fbe044fa0f5 |
-| 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
+| 04 | Bash Scripting | |&nbsp; 🔄 In Progress &nbsp;| ||&nbsp; 🔄 In Progress &nbsp;|| — | — |
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
