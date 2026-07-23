@@ -3,8 +3,7 @@
 ![Cohort](https://img.shields.io/badge/Cohort-3-blue?style=for-the-badge)
 ![Program](https://img.shields.io/badge/DevOps_Micro_Internship-Pravin_Mishra-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
-![Weeks](https://img.shields.io/badge/Weeks_Completed-3%2F15-green?style=for-the-badge)
-![Weeks](https://img.shields.io/badge/Weeks_Completed-0%2F14-green?style=for-the-badge)
+![Weeks](https://img.shields.io/badge/Weeks_Completed-4%2F14-green?style=for-the-badge)
 
 
 > 👋 **New here?** Read the [submission instructions](./onboarding) first — how to fork, fill in, and submit your assignments.
@@ -63,26 +62,21 @@ This is not a course. It is an internship-style program — real deployments, re
 
 **Preview — what your full stack looks like:**
 
-[![Week 00](./badges/week-00.svg)](./week-00-internet-and-networking/)[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)[![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)[![Week 03](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)[![Week 04](./badges/week-04.svg)](./week-04-github/)[![Week 05](./badges/week-05.svg)](./week-05-devops-lifecycle/)[![Week 06](./badges/week-06.svg)](./week-06-aws-cloud/)[![Week 07](./badges/week-07.svg)](./week-07-azure-cloud/)[![Week 08](./badges/week-08.svg)](./week-08-terraform/)[![Week 09](./badges/week-09.svg)](./week-09-ansible/)[![Week 10](./badges/week-10.svg)](./week-10-azure-devops/)[![Week 11](./badges/week-11.svg)](./week-11-docker/)[![Week 12](./badges/week-12.svg)](./week-12-kubernetes/)[![Week 13](./badges/week-13.svg)](./week-13-final-project/)
+[![Week 00](./badges/week-00.svg)](./week-00-internet-and-networking/)[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)[![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)[![Week 03](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)[![Week 04](./badges/week-04.svg)](./week-04-git-and-github/)[![Week 05](./badges/week-05.svg)](./week-05-devops-lifecycle/)[![Week 06](./badges/week-06.svg)](./week-06-aws-cloud/)[![Week 07](./badges/week-07.svg)](./week-07-azure-cloud/)[![Week 08](./badges/week-08.svg)](./week-08-terraform/)[![Week 09](./badges/week-09.svg)](./week-09-ansible/)[![Week 10](./badges/week-10.svg)](./week-10-azure-devops/)[![Week 11](./badges/week-11.svg)](./week-11-docker/)[![Week 12](./badges/week-12.svg)](./week-12-kubernetes/)[![Week 13](./badges/week-13.svg)](./week-13-final-project/)
 
 ---
 
 **Your stack (uncomment each badge as you earn it):**
 
-Week 00 → Internet & Networking Basics
-[![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) 
-Week 01 → Success Mindset 
- [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) 
-Week 02 → Agentic AI with Claude Code 
-[![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) 
-Week 03 → Linux for DevOps 
- [![Week 03 – Linux](./badges/week-03.svg)](./week-03-linux-for-devops/) 
-Week 03 → Linux & Bash for DevOps 
- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) 
+[![Week 00](./badges/week-00.svg)](./week-00-internet-and-networking/)
 
-Week 04 → Git & GitHub 
- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) 
+[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)
 
+[![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)
+
+[![Week 03](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
+
+[![Week 04](./badges/week-04.svg)](./week-04-git-and-github/)
 <!-- Week 05 → DevOps Lifecycle & Agile -->
 <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
 
@@ -128,40 +122,40 @@ Week 04 → Git & GitHub
 ---
 
 ## Weekly Progress
-
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
+
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics |&nbsp; ✅ Completed<br>|&nbsp; ✅ Completed<br>| https://www.linkedin.com/posts/ekweozor_dmi-devops-agenticai-share-7474950986667724802-UljO/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI| — |
-| 01 | Success Mindset |&nbsp; ✅ Completed<br>|&nbsp; ✅ Completed<br>| https://www.linkedin.com/posts/ekweozor_devops-cloudengineering-aws-share-7478023458841497600-CH77/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI | https://medium.com/@nkemveekee/how-a-devops-internship-changed-the-way-i-think-learn-and-grow-6d0aa71b2942?source=friends_link&sk=efdd1ebbff7a94a7ae90619cc253581a |
-| 02 | Agentic AI with Claude Code |&nbsp; ✅ Completed<br>|&nbsp; ✅ Completed<br>| https://www.linkedin.com/posts/ekweozor_claudecode-devops-learninginpublic-ugcPost-7481332333581795328-9FIt/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI | https://medium.com/@nkemveekee/7fbe044fa0f5 |
-| 04 | Bash Scripting | &nbsp; ✅ Completed<br>|&nbsp; ✅ Completed<br>| — | — |
-| 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
-| 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
-| 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 09 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
-| 10 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
-| 11 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — | 03 | Linux for DevOps |&nbsp; ✅ Completed<br>|&nbsp; ✅ Completed<br>| https://www.linkedin.com/posts/ekweozor_dmibypravinmishra-linux-bash-ugcPost-7484960000889532417-ZvNM/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI | — |
-|
-| 12 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
-| 13 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
-| 14 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
-| 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
-| 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
+
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_dmi-devops-agenticai-share-7474950986667724802-UljO/ | — |
+
+| 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_devops-cloudengineering-aws-share-7478023458841497600-CH77/ | https://medium.com/@nkemveekee/how-a-devops-internship-changed-the-way-i-think-learn-and-grow-6d0aa71b2942 |
+
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_claudecode-devops-learninginpublic-ugcPost-7481332333581795328-9FIt/ | https://medium.com/@nkemveekee/7fbe044fa0f5 |
+
+| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_dmibypravinmishra-linux-bash-ugcPost-7484960000889532417-ZvNM/ | — |
+
+| 04 | Git & GitHub | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_dmibypravinmishra-agenticai-claudecode-share-7485995732001304576-uLr7/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI | — |
+
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
+
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
+
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
+
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
+
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
+
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
+
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 
-**Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
+**Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed
+
 **Assignment:** ⏳ Pending &nbsp;|&nbsp; ✅ Solved
 
 ---
@@ -179,6 +173,6 @@ Week 04 → Git & GitHub
 If you found this repo useful or want to follow my DevOps journey:
 
 - ⭐ Star this repo
-- 🔗 Connect with me on [LinkedIn](#)
+- 🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/ekweozor)
 - 🌐 Learn more about the program: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme
 - 💬 Join the community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme
