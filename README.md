@@ -132,9 +132,9 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_claudecode-devops-learninginpublic-ugcPost-7481332333581795328-9FIt/ | https://medium.com/@nkemveekee/7fbe044fa0f5 |
 
-| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_dmibypravinmishra-linux-bash-ugcPost-7484960000889532417-ZvNM/ | — |
+| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_dmibypravinmishra-linux-bash-ugcPost-7484960000889532417-ZvNM/ | https://medium.com/@nkemveekee/linux-bash-and-the-mindset-shift-every-devops-engineer-needs-85609b27f720 |
 
-| 04 | Git & GitHub | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_dmibypravinmishra-agenticai-claudecode-share-7485995732001304576-uLr7/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI | — |
+| 04 | Git & GitHub | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_dmibypravinmishra-agenticai-claudecode-share-7485995732001304576-uLr7/ |https://medium.com/@nkemveekee/more-than-version-control-what-git-actually-taught-me-about-collaboration-a0ff1bd6efdb |
 
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 
