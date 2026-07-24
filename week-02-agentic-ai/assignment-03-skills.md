@@ -96,15 +96,13 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 ## GitHub Repository URL
 
-https://github.com/nkemveekee-ike/Ultimate-Agentic-DevOps-with-Claude-Code.git
+https://github.com/nkemveekee-ike/devops-micro-internship-pravinmishra
 
-`Add your URL here`
 
 ## LinkedIn post URL
 
 https://www.linkedin.com/posts/ekweozor_devops-cloudcomputing-github-ugcPost-7480892925040590849-4fll/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI
 
-`Add your URL here`
 ---
 
 # Completion Checklist

@@ -114,8 +114,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 Paste your forked repository URL here:
 
-`Add your URL here`
-https://github.com/nkemveekee-ike/Ultimate-Agentic-DevOps-with-Claude-Code.git
+https://github.com/nkemveekee-ike/devops-micro-internship-pravinmishra
 
 
 ---

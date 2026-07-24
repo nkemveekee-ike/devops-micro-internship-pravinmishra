@@ -94,9 +94,8 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 ## GitHub Repository URL
 
-https://github.com/nkemveekee-ike/Ultimate-Agentic-DevOps-with-Claude-Code.git
+https://github.com/nkemveekee-ike/devops-micro-internship-pravinmishra
 
-`Add your URL here`
 
 ---
 

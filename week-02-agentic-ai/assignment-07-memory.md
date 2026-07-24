@@ -93,15 +93,13 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 https://www.linkedin.com/posts/ekweozor_dmibypravinmishra-agenticai-claudecode-share-7481286464312516608-gr5E/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI
 
-`Add your URL here`
 
 ---
 
 ## GitHub Repository URL
 
-https://github.com/nkemveekee-ike/Ultimate-Agentic-DevOps-with-Claude-Code.git
+https://github.com/nkemveekee-ike/devops-micro-internship-pravinmishra
 
-`Add your URL here`
 
 ---
 
