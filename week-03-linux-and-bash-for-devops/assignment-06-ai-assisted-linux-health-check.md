@@ -490,7 +490,6 @@ Verify: The system was checked again using the verification commands and a secon
 
 https://www.linkedin.com/posts/ekweozor_dmibypravinmishra-linux-bash-ugcPost-7484960000889532417-ZvNM/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI
 
-`Add your URL here`
 
 ---
 

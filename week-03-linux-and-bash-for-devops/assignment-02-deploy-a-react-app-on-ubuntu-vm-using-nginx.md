@@ -143,7 +143,6 @@ Verify the React application is publicly accessible via the server's public IP.
 
 https://www.linkedin.com/posts/ekweozor_devops-aws-ec2-share-7483127274054262784-mAvL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI
 
-`Add your URL here`
 
 ---
 

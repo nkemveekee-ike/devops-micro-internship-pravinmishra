@@ -124,7 +124,6 @@ Verify the deployed website and Nginx service are healthy.
 
 https://www.linkedin.com/posts/ekweozor_dmicohort3-devops-linux-share-7483229434167250944-uyh6/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI
 
-`Add your URL here`
 
 ---
 

@@ -442,7 +442,6 @@ This script combines several Bash concepts together. Variables are used to store
 
 https://www.linkedin.com/posts/ekweozor_devops-linux-bashscripting-ugcPost-7483916007321997312-XvEw/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI
 
-`Add your URL here`
 
 ---
 
