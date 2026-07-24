@@ -125,7 +125,6 @@ Open a Pull Request from `feature-readme-update` on your fork to `main` on the u
 
 https://github.com/pravinmishraaws/devops-micro-internship-interviews/pull/336
 
-`Add your URL here`
 
 ---
 
@@ -134,8 +133,6 @@ https://github.com/pravinmishraaws/devops-micro-internship-interviews/pull/336
 ## Evidence
 
 #### LinkedIn Post URL
-
-Paste your LinkedIn post URL here:
 
 https://www.linkedin.com/posts/ekweozor_dmicohort3-devops-github-share-7485810335577378816-1eOL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI
 
