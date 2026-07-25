@@ -128,7 +128,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_dmi-devops-agenticai-share-7474950986667724802-UljO/ | https://medium.com/@nkemveekee/i-finally-understand-whats-happening-behind-the-internet-365be656e3fc |
 | 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_devops-cloudengineering-aws-share-7478023458841497600-CH77/ | https://medium.com/@nkemveekee/how-a-devops-internship-changed-the-way-i-think-learn-and-grow-6d0aa71b2942 |
-| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_claudecode-devops-learninginpublic-ugcPost-7481332333581795328-9FIt/ | https://medium.com/@nkemveekee/reflection-week-2-from-fear-to-confidence-bc1917685659 |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_claudecode-devops-learninginpublic-ugcPost-7481332333581795328-9FIt/ | https://medium.com/@nkemveekee/reflection-week-2-from-fear-to-confidence-7c6ae85ba331|
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_dmibypravinmishra-linux-bash-ugcPost-7484960000889532417-ZvNM/ | https://medium.com/@nkemveekee/linux-bash-and-the-mindset-shift-every-devops-engineer-needs-85609b27f720 |
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_dmibypravinmishra-agenticai-claudecode-share-7485995732001304576-uLr7/ |https://medium.com/@nkemveekee/more-than-version-control-what-git-actually-taught-me-about-collaboration-a0ff1bd6efdb |
 
