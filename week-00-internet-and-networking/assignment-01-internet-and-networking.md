@@ -241,13 +241,21 @@ Add the following credit note at the end of your post:
 
 ## LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
-```text
 https://www.linkedin.com/posts/ekweozor_devops-dmi-cloudadvisory-share-7473688780982554624-nKRR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI
 ```
 
 ---
+
+---
+
+## 📝 Blog Post
+
+I also wrote a short reflection on this week's learning:
+[I Finally Understand What's Happening Behind the Internet](https://medium.com/@nkemveekee/i-finally-understand-whats-happening-behind-the-internet-d5011e073b5c)
+
+---
+
+## 📌 About DMI & CloudAdvisory
 
 ## LinkedIn Post Backup Copy
 
