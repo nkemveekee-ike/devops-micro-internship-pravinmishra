@@ -451,7 +451,7 @@ https://www.linkedin.com/posts/ekweozor_devops-cloudengineering-aws-share-747802
 
 - LinkedIn Post URL: **https://www.linkedin.com/posts/ekweozor_devops-cloudengineering-aws-share-7478023458841497600-CH77/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI**  
 
-- Blog / Medium : https://medium.com/@nkemveekee/how-a-devops-internship-changed-the-way-i-think-learn-and-grow-6d0aa71b2942  
+- Blog / Medium : https://medium.com/@nkemveekee/the-mindset-that-shapes-every-devops-journey-1aeed32de104 
 
 ---
 
