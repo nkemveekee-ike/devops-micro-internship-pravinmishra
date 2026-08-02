@@ -73,12 +73,9 @@ This is not a course. It is an internship-style program — real deployments, re
 [![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)
 
 [![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)
-
 [![Week 03](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
-
 [![Week 04](./badges/week-04.svg)](./week-04-git-and-github/)
-<!-- Week 05 → DevOps Lifecycle & Agile -->
-<!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
+[![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/)
 
 <!-- Week 06 → AWS Cloud -->
 <!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
@@ -132,7 +129,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_dmibypravinmishra-linux-bash-ugcPost-7484960000889532417-ZvNM/ | https://medium.com/@nkemveekee/linux-bash-and-the-mindset-shift-every-devops-engineer-needs-85609b27f720 |
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_dmibypravinmishra-agenticai-claudecode-share-7485995732001304576-uLr7/ |https://medium.com/@nkemveekee/more-than-version-control-what-git-actually-taught-me-about-collaboration-a0ff1bd6efdb |
 
-| 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
+| 05 | DevOps Lifecycle & Agile | 🔄 In Progress | 🔄 In Progress | — | — |
 
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 
