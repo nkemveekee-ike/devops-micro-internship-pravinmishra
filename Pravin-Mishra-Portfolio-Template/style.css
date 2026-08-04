@@ -212,7 +212,15 @@ body {
   padding: 0 8px;
  margin-top: 8px;
 }
+.hero-content a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 700;
+}
 
+.hero-content a:hover {
+  color: #f4b942;
+}
 .hero-content h1 {
   font-size: 52px;
   font-weight: 800;
@@ -583,7 +591,7 @@ section {
   background: #fff;
   overflow: hidden;
 }
-
+]
 .books-title {
   text-align: center;
   font-size: 48px;
