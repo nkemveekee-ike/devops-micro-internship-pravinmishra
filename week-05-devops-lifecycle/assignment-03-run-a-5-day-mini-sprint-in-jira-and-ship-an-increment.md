@@ -104,19 +104,19 @@ Improve the footer's spacing, contrast, and readability, then validate it at bot
 
 #### Screenshot 11 — Desktop EC2 view showing the polished footer
 
-Add your screenshot here.
+![screenshots](screenshots/A3-T4-S1.png)
 
 ---
 
 #### Screenshot 12 — Mobile responsive view showing the footer remains readable
 
-Add your screenshot here.
+![screenshots](screenshots/A3-T4-S2.png)
 
 ---
 
 #### Screenshot 13 — Jira Story comment showing the Day 3 Daily Scrum update
 
-Add your screenshot here.
+![screenshots](screenshots/A3-T4-S3.png)
 
 ---
 
@@ -130,8 +130,9 @@ Replace the existing homepage tagline with the required DMI Website call-to-acti
 
 #### Screenshot 14 — EC2 browser view showing "Start your DevOps Journey here" and the clickable "Visit the DMI Website" link
 
-Add your screenshot here.
+![screenshots](screenshots/A3-T5-S1.png)
 
+![screenshots](screenshots/A3-T2-S5.png)
 ---
 
 # Task 6 — Day 5: Demo, Retrospective, and Burndown
@@ -144,19 +145,19 @@ Record a two-to-three-minute demo video of the shipped footer, add a retrospecti
 
 #### Screenshot 15 — Burndown Chart for Sprint 1
 
-Add your screenshot here.
+![screenshots](screenshots/A3-T6-S3.png)
 
 ---
 
 #### Screenshot 16 — Jira retrospective comment
 
-Add your screenshot here.
+![screenshots](screenshots/A3-T6-S1.png)
 
 ---
 
 #### Screenshot 17 — Final EC2 browser view showing the complete footer requirement
 
-Add your screenshot here.
+![screenshots](screenshots/A3-T6-S17.png)
 
 ---
 
@@ -164,7 +165,7 @@ Add your screenshot here.
 
 Paste your unlisted YouTube or accessible Google Drive demo-video link here:
 
-`Add your URL here`
+https://youtu.be/rf1qFLoWWyk
 
 ---
 
@@ -178,15 +179,13 @@ Publish a LinkedIn post about your five-day mini-Sprint, including your GitHub r
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
-`Add your URL here`
+https://www.linkedin.com/posts/ekweozor_devops-jira-scrum-share-7490770520578277376-n1n0/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI
 
 ---
 
 #### LinkedIn Screenshot 1 — Published LinkedIn post showing the post content and at least one required link or proof image
 
-Add your screenshot here.
+![screenshots](screenshots/week5-linkedln.png)
 
 ---
 
@@ -204,17 +203,17 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Sprint 1 started with the required Sprint Goal (Screenshots 1 & 2)
-- [ ] Task 2: Day 1 footer implemented, committed, and deployed (Screenshots 3–6)
-- [ ] Task 3: Day 2 deploy date made dynamic and documented (Screenshots 7–10)
-- [ ] Task 4: Day 3 footer polished and validated on desktop and mobile (Screenshots 11–13)
-- [ ] Task 5: Day 4 DMI Website call-to-action deployed and clickable (Screenshot 14)
-- [ ] Task 6: Day 5 demo, retrospective, and Burndown evidence completed (Screenshots 15–17, video URL)
-- [ ] Daily Scrum comments posted for Days 1–5
-- [ ] LinkedIn post published with the GitHub URL, EC2 URL, required delivery details, and proof image
-- [ ] LinkedIn Post URL and LinkedIn Screenshot 1 included
-- [ ] Full Name visible in required screenshots
-- [ ] No sensitive data exposed
+- [X] Task 1: Sprint 1 started with the required Sprint Goal (Screenshots 1 & 2)
+- [X] Task 2: Day 1 footer implemented, committed, and deployed (Screenshots 3–6)
+- [X] Task 3: Day 2 deploy date made dynamic and documented (Screenshots 7–10)
+- [X] Task 4: Day 3 footer polished and validated on desktop and mobile (Screenshots 11–13)
+- [X] Task 5: Day 4 DMI Website call-to-action deployed and clickable (Screenshot 14)
+- [X] Task 6: Day 5 demo, retrospective, and Burndown evidence completed (Screenshots 15–17, video URL)
+- [X] Daily Scrum comments posted for Days 1–5
+- [X] LinkedIn post published with the GitHub URL, EC2 URL, required delivery details, and proof image
+- [X] LinkedIn Post URL and LinkedIn Screenshot 1 included
+- [X] Full Name visible in required screenshots
+- [X] No sensitive data exposed
 
 ---
 
