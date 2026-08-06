@@ -3,3 +3,4 @@ CLAUDE.md
 my-react-app/
 my-react-app.tar.gz
 node_modules/
+.claude/settings.local.json
