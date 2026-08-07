@@ -3,7 +3,7 @@
 ![Cohort](https://img.shields.io/badge/Cohort-3-blue?style=for-the-badge)
 ![Program](https://img.shields.io/badge/DevOps_Micro_Internship-Pravin_Mishra-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
-![Weeks](https://img.shields.io/badge/Weeks_Completed-4%2F14-green?style=for-the-badge)
+![Weeks](https://img.shields.io/badge/Weeks_Completed-6%2F14-green?style=for-the-badge)
 
 
 > 👋 **New here?** Read the [submission instructions](./onboarding) first — how to fork, fill in, and submit your assignments.
@@ -123,13 +123,12 @@ This is not a course. It is an internship-style program — real deployments, re
 
 |------|-------|--------|------------|---------------|-----------|
 
-| 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_dmi-devops-agenticai-share-7474950986667724802-UljO/ | https://medium.com/@nkemveekee/i-finally-understand-whats-happening-behind-the-internet-365be656e3fc |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_dmi-devops-agenticai-share-7474950986667724802-UljO/ |https://medium.com/@nkemveekee/i-finally-understand-whats-happening-behind-the-internet-d5011e073b5c?sharedUserId=nkemveekee |
 | 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_devops-cloudengineering-aws-share-7478023458841497600-CH77/ | https://medium.com/@nkemveekee/how-a-devops-internship-changed-the-way-i-think-learn-and-grow-6d0aa71b2942 |
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_claudecode-devops-learninginpublic-ugcPost-7481332333581795328-9FIt/ | https://medium.com/@nkemveekee/reflection-week-2-from-fear-to-confidence-7c6ae85ba331|
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_dmibypravinmishra-linux-bash-ugcPost-7484960000889532417-ZvNM/ | https://medium.com/@nkemveekee/linux-bash-and-the-mindset-shift-every-devops-engineer-needs-85609b27f720 |
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_dmibypravinmishra-agenticai-claudecode-share-7485995732001304576-uLr7/ |https://medium.com/@nkemveekee/more-than-version-control-what-git-actually-taught-me-about-collaboration-a0ff1bd6efdb |
-
-| 05 | DevOps Lifecycle & Agile | 🔄 In Progress | 🔄 In Progress | — | — |
+| 05 | DevOps Lifecycle & Agile |  ✅ Completed |  ✅ Completed | https://www.linkedin.com/posts/ekweozor_scrum-agile-jira-share-7490882364554858497-y1m5/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI | https://medium.com/@nkemveekee/from-backlog-to-boundaries-what-week-5-taught-me-about-scrum-jira-and-ai-assisted-sprint-health-15932f6b5960 |
 
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 
