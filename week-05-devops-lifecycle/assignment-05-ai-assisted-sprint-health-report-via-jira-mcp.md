@@ -185,7 +185,7 @@ https://www.linkedin.com/posts/ekweozor_dmibypravinmishra-agenticai-claudecode-s
 ## Evidence
 
 ####  Medium Blog Post URL
-https://medium.com/@nkemveekee/from-backlog-to-boundaries-what-week-5-taught-me-about-scrum-jira-and-ai-assisted-sprint-health-15932f6b5960
+
 ---
 
 ---
