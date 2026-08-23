@@ -34,13 +34,20 @@ Record the AWS Region used and list every AWS service used across networking, co
 
 **Region:**
 
-Write your answer here.
+Region: eu-north-1 (Stockholm)
 
 ---
 
 **Services:**
 
-Write your answer here.
+Category	Services
+Networking	VPC, 6 Subnets (2 public / 4 private), Internet Gateway, NAT Gateway, Route Tables
+Compute	EC2 — Web Tier (t3.small, Ubuntu 24.04), App Tier (t4g.micro, Ubuntu 24.04 arm64)
+Load Balancing	2× Application Load Balancer — 1 public (Web Tier), 1 internal (App Tier)
+Security	3× Security Groups (Web, App, DB tiers), least-privilege chained rules
+Database	Amazon RDS for MySQL — primary instance + read replica
+Process Management	pm2 (Node.js process manager, both tiers), systemd service registration
+Web Server	Nginx (reverse proxy on Web Tier)
 
 ---
 
@@ -114,19 +121,42 @@ Summarize what worked in the final deployment, the issues encountered and how ea
 
 **What worked:**
 
-Write your answer here.
+What worked:
+
+The full three-tier architecture is live and serving real traffic end-to-end: a user hitting the public ALB is routed to an Nginx-fronted Next.js frontend in a public subnet, which reverse-proxies API calls through an internal ALB to a private Node.js/Express backend, which reads and writes to a MySQL RDS instance with a read replica — all isolated behind least-privilege security groups with no Elastic IPs anywhere in the design (the NAT Gateway's EIP is the only exception, and it's attached to the NAT Gateway itself, not to any instance). Both application tiers run under pm2, registered as systemd services so they survive reboots and are automatically restarted on failure. Both EC2 target groups report healthy in their respective ALBs.
 
 ---
 
 **Issues + fixes:**
 
-Write your answer here.
+AWS "Free Plan" account restriction blocked Multi-AZ RDS. AWS's July 2025 account-tier change locks Multi-AZ and other higher-cost features behind a "Paid plan" upgrade requiring a verified payment method, which wasn't available. Deployed RDS as Single-AZ instead, and created a read replica separately (which the Free Plan did allow) to satisfy the read-scaling requirement. This is a genuine platform constraint, not a design shortcut — the architecture is written so that switching to Multi-AZ later is a single console setting once the account is upgraded.
+
+Hit the Free Plan's RDS instance-count limit when creating bookreview-db, because a stopped RDS instance from an earlier, completed assignment was still counted against the quota. Deleted the unused instance to free the slot.
+
+EC2 capacity errors across multiple instance types and both AZs (t3.micro, t3.small, t4g.micro, t4g.small all intermittently unavailable in eu-north-1a/eu-north-1b). Worked around by retrying different instance type/AZ combinations until each tier found available capacity; ended up on t3.small (x86) for the Web Tier and t4g.micro (arm64) for the App Tier.
+
+Console defaulted to the wrong VPC and subnet repeatedly during EC2 launch (defaulting to an existing default VPC instead of bookreview-vpc, and to "No preference" instead of the intended subnet). Caught and corrected each time by verifying the Network settings section before every launch, rather than trusting the form's defaults.
+
+Internal ALB was accidentally created in the wrong subnets (a web subnet and a DB subnet instead of the two App Tier subnets). Fixed by editing the ALB's subnet mappings after creation.
+Security groups were missing rules that only became apparent when testing connectivity: the Web Tier's security group had zero inbound rules right after creation (blocking both SSH and HTTP), and the App Tier target group's health checks failed with "Request timed out" because the App Tier's security group only permitted traffic from the Web Tier's security group, not from the internal ALB's own security group (which the ALB and the App EC2 instance shared). Fixed by adding the missing HTTP/SSH rules and a self-referencing rule allowing the App Tier security group to talk to itself.
+
+RDS connection failures from copy-paste template placeholders left in the backend's .env file (YOUR_RDS_ENDPOINT_ and YOUR_MASTER_USERNAME_ prefixes accidentally concatenated onto the real values). Diagnosed via the exact Sequelize/mysql2 error messages (ENOTFOUND, ER_ACCESS_DENIED_ERROR) and corrected the .env values.
+
+ER_TOO_MANY_KEYS MySQL error after repeated backend restarts during troubleshooting: Sequelize's sync({ alter: true }) re-added a unique index on the Users.email column on every restart, eventually exceeding MySQL's 64-key-per-table limit. Fixed by dropping and recreating the 
+database (safe, since only seed data existed) and avoiding unnecessary restarts afterward.
+
+Nginx served stale DNS for the internal ALB after a config reload, causing intermittent 504 Gateway Timeout errors on /api/ even though the internal ALB itself was healthy and reachable. A full systemctl restart nginx (rather than reload) forced fresh DNS resolution and resolved it.
+
+A double /api/api/ prefix in outgoing frontend requests caused persistent 404s on the homepage's book list, even though the equivalent calls in the app's shared api.js service module were correct. Traced to src/app/page.js hardcoding its own ${NEXT_PUBLIC_API_URL}/api/books call instead of reusing the api.js convention (which already expected NEXT_PUBLIC_API_URL to include /api). Fixed by aligning page.js with the rest of the app and rebuilding.
+
+SSH access to the private App Tier instance was handled via SSH agent forwarding through the public Web Tier instance (ssh -A), so the private key never had to be copied onto either EC2 instance — keeping the App Tier genuinely unreachable from outside the VPC while still allowing administration.
+
 
 ---
 
 **Tools/sources used:**
 
-Write your answer here.
+AWS Console (EC2, VPC, RDS, ALB/Target Groups, Security Groups), SSH (via Git Bash on Windows, with agent forwarding for the private App Tier), pm2 for process management, nano for remote file editing, the mysql CLI client for direct database troubleshooting, curl for isolating exactly which layer of the stack (Nginx, internal ALB, backend, RDS) a failure was happening at, browser DevTools Network/Console tabs for diagnosing the frontend request bug, and Claude for step-by-step guidance, error-message interpretation, and catching several configuration mistakes (wrong VPC/subnet defaults, wrong ALB subnets, missing security group rules) before they caused harder-to-diagnose problems later.
 
 ---
 
