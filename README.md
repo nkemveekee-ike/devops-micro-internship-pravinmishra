@@ -77,11 +77,10 @@ This is not a course. It is an internship-style program — real deployments, re
 [![Week 04](./badges/week-04.svg)](./week-04-git-and-github/)
 [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/)
 
-<!-- Week 06 → AWS Cloud -->
-<!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
 
-<!-- Week 07 → Azure Cloud -->
-<!-- [![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/) -->
+[![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/)
+
+[![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/)
 
 <!-- Week 08 → Terraform -->
 <!-- [![Week 08 – Terraform](./badges/week-08.svg)](./week-08-terraform/) -->
@@ -130,9 +129,9 @@ This is not a course. It is an internship-style program — real deployments, re
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ekweozor_dmibypravinmishra-agenticai-claudecode-share-7485995732001304576-uLr7/ |https://medium.com/@nkemveekee/more-than-version-control-what-git-actually-taught-me-about-collaboration-a0ff1bd6efdb |
 | 05 | DevOps Lifecycle & Agile |  ✅ Completed |  ✅ Completed | https://www.linkedin.com/posts/ekweozor_scrum-agile-jira-share-7490882364554858497-y1m5/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI | https://medium.com/@nkemveekee/from-backlog-to-boundaries-what-week-5-taught-me-about-scrum-jira-and-ai-assisted-sprint-health-15932f6b5960 |
 
-| 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 06 | AWS Cloud |✅ Completed| ✅ Completed |https://lnkd.in/p/e9dZ7UEz|https://medium.com/@nkemveekee/more-than-version-control-what-git-actually-taught-me-about-collaboration-a0ff1bd6efdb?sharedUserId=nkemveekee|
 
-| 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 07 | Azure Cloud |✅ Completed|✅ Completed| https://lnkd.in/p/ejDuYyi8 |https://medium.com/@nkemveekee/a-working-azure-deployment-isnt-the-same-as-a-secure-one-3833902a1a28|
 
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 
