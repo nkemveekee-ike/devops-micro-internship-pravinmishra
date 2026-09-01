@@ -20,7 +20,7 @@ Create an architecture diagram showing the custom VPC (10.0.0.0/16), the six sub
 
 #### Diagram image or link
 
-Add your diagram image or link here.
+![screenshots](screenshots/A6-T1-S1.png)
 
 ---
 
@@ -63,7 +63,7 @@ Confirm the Book Review App loads through the public ALB DNS name.
 
 Paste your public ALB DNS name here:
 
-`Add your URL here`
+http://book-review-web-alb-850427566.eu-north-1.elb.amazonaws.com/
 
 ---
 
@@ -77,37 +77,37 @@ Capture visual proof of every tier and load balancer.
 
 #### Web EC2
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T4-S1.png)
 
 ---
 
 #### App EC2
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T4-S2.png)
 
 ---
 
 #### Public ALB
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T4-S3.png)
 
 ---
 
 #### Internal ALB
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T4-S4.png)
 
 ---
 
 #### RDS + Replica
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T4-S5.png)
 
 ---
 
 #### App UI proof
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T4-S6.png)
 
 ---
 
@@ -172,13 +172,13 @@ Publish a LinkedIn post sharing the capstone deployment, including the public AL
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/ekweozor_dmi-devops-micro-internship-with-agentic-activity-7498339933233860609-Se0p?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI
 
 ---
 
 #### Screenshot of LinkedIn post
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T0-S1.png)
 
 ---
 
@@ -191,14 +191,14 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Architecture diagram completed
-- [ ] Task 2: AWS Region and services documented
-- [ ] Task 3: Public ALB DNS confirmed working
-- [ ] Task 4: All six evidence screenshots captured (Web Tier, App Tier, both ALBs, RDS + replica, app UI)
-- [ ] Task 5: Deployment summary completed (what worked, issues/fixes, tools/sources)
-- [ ] LinkedIn post published and URL submitted
-- [ ] App Tier and Database Tier confirmed not publicly accessible
-- [ ] No sensitive data exposed
+- [X] Task 1: Architecture diagram completed
+- [X] Task 2: AWS Region and services documented
+- [X] Task 3: Public ALB DNS confirmed working
+- [X] Task 4: All six evidence screenshots captured (Web Tier, App Tier, both ALBs, RDS + replica, app UI)
+- [X] Task 5: Deployment summary completed (what worked, issues/fixes, tools/sources)
+- [X] LinkedIn post published and URL submitted
+- [X] App Tier and Database Tier confirmed not publicly accessible
+- [X] No sensitive data exposed
 
 ---
 

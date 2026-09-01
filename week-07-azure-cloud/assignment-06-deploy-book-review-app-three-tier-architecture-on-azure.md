@@ -20,13 +20,13 @@ Create an architecture diagram and implementation plan identifying the presentat
 
 #### Screenshot 1 — Architecture diagram showing the public entry point, three tiers, network boundaries, and traffic flow
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T1-S1.png)
 
 ---
 
 #### Screenshot 2 — Written architecture assumptions and selected Azure services
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T1-S2.png)
 
 ---
 
@@ -40,19 +40,19 @@ Create a dedicated Resource Group and VNet with separate subnets for the web, ap
 
 #### Screenshot 3 — Resource Group overview showing the assignment resources
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T2-S1.png)
 
 ---
 
 #### Screenshot 4 — VNet overview showing the address space and all required subnets
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T2-S2.png)
 
 ---
 
 #### Screenshot 5 — Route-table or Private DNS evidence where applicable
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T2)
 
 ---
 
@@ -66,13 +66,13 @@ Apply least-privilege NSG rules so traffic flows Internet → public entry point
 
 #### Screenshot 6 — NSG rules proving least-privilege access between the tiers
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T3-S1.png)
 
 ---
 
 #### Screenshot 7 — Key Vault or approved secret-management configuration (without displaying secret values)
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T3-S2.png)
 
 ---
 
@@ -86,13 +86,13 @@ Deploy the Book Review App presentation layer on the approved web-tier compute s
 
 #### Screenshot 8 — Web-tier compute overview showing subnet and availability configuration
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T4-S1.png)
 
 ---
 
 #### Screenshot 9 — Terminal or service output proving the presentation layer is running
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T4-S22.png)
 
 ---
 
@@ -106,19 +106,19 @@ Deploy the Book Review App backend privately in the application subnet, configur
 
 #### Screenshot 10 — Application-tier compute overview showing private subnet placement
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T5-S1.png)
 
 ---
 
 #### Screenshot 11 — Backend process, service, or listening-port evidence
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T5-S2.png)
 
 ---
 
 #### Screenshot 12 — Internal health-check or API response (without exposing secrets)
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T5-S3.png)
 
 ---
 
@@ -132,19 +132,19 @@ Create a private Azure managed database (public access disabled), with availabil
 
 #### Screenshot 13 — Database overview showing private connectivity and public access disabled
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T6-S1.png)
 
 ---
 
 #### Screenshot 14 — Availability, backup, and retention configuration
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T6-S2.png)
 
 ---
 
 #### Screenshot 15 — Successful schema or connectivity verification (without exposing credentials)
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T6-S3.png)
 
 ---
 
@@ -158,19 +158,19 @@ Configure the approved public entry service with health probes and backend pools
 
 #### Screenshot 16 — Public entry service showing listener, frontend endpoint, and healthy web targets
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T7-S1.png)
 
 ---
 
 #### Screenshot 17 — Internal application-tier load-balancing or routing configuration where applicable
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T7-S2.png)
 
 ---
 
 #### Screenshot 18 — Azure Monitor, diagnostic settings, logs, metrics, or alert evidence
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T7-S3.png)
 
 ---
 
@@ -184,25 +184,25 @@ Confirm the Book Review App works end to end through the public endpoint, with a
 
 #### Screenshot 19 — Browser showing the Book Review App through the public endpoint
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T8-S1.png)
 
 ---
 
 #### Screenshot 20 — Proof of successful database-backed read and write operations
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T8-S2.png)
 
 ---
 
 #### Screenshot 21 — Evidence that private tiers are not publicly accessible
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T8-S3.png)
 
 ---
 
 #### Screenshot 22 — Availability-test and healthy-target evidence
 
-Add your screenshot here.
+![screenshots](screenshots/A6-T8-S4.png)
 
 ---
 
@@ -210,7 +210,7 @@ Add your screenshot here.
 
 Paste your public endpoint URL here:
 
-`Add your URL here`
+http://20.164.96.156
 
 ---
 
@@ -218,7 +218,19 @@ Paste your public endpoint URL here:
 
 Summarize what worked, issues encountered and how they were fixed, and the availability/security/secrets/monitoring/backup choices made.
 
-Write your answer here.
+The app's up and running as a proper three-tier setup. Web tier (VMSS + Nginx) sits in a public subnet and proxies to the app tier (VMSS + Node/Express), which is fully private and only reachable through an internal load balancer. Database is a private MySQL Flexible Server that only the app tier can talk to. All public traffic comes in through an Application Gateway — nothing else is exposed.
+
+Issues I ran into:
+
+Kept hitting a 4-vCPU regional quota limit that blocked VM creation — had to juggle sizes and free up quota a few times.
+App subnet had no internet access at first, so it couldn't install anything. Added a NAT Gateway temporarily, removed it once installs were done.
+Azure MySQL forces SSL by default, and my app kept failing to connect — turned out to be one line in models/index.js not passing the SSL config through to Sequelize. Fixed it.
+Internal load balancer and App Gateway both showed empty backend pools even after adding my VMSS — had to manually upgrade the VMSS instances for it to actually take effect. Tripped me up twice.
+Left the Node app running in the foreground over SSH and it died when I disconnected. Restarted with nohup so it stays up.
+Ran out of public IPs (limit of 3) creating the App Gateway's IP — deleted an old unused one to free up room.
+
+Availability/security/secrets/monitoring/backup:
+App Gateway autoscales 1-2 instances. Web and app tiers are VMSS but stuck at 1 instance each due to the quota — a real constraint, not a design choice. NSGs only allow traffic where needed (web→app on the app port, app→db on 3306); neither app tier nor database has a public IP; only SSH path is through Bastion. DB connection string is an env var, not hardcoded; managed identity is set up on the VMSS for future Key Vault use. Everything logs to one Log Analytics workspace — App Gateway logs/metrics, VM Insights on both tiers, full MySQL diagnostics. MySQL backups are 7-day retention with local + geo-redundant.
 
 ---
 
@@ -231,15 +243,15 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] Task 1: Architecture diagram and assumptions documented (Screenshots 1–2)
-- [ ] Task 2: Network foundation created with isolated tiers (Screenshots 3–5)
-- [ ] Task 3: Least-privilege security and secret management configured (Screenshots 6–7)
-- [ ] Task 4: Presentation tier deployed (Screenshots 8–9)
-- [ ] Task 5: Application tier deployed privately (Screenshots 10–12)
-- [ ] Task 6: Managed database tier deployed privately (Screenshots 13–15)
-- [ ] Task 7: Public entry, internal routing, and monitoring configured (Screenshots 16–18)
-- [ ] Task 8: End-to-end validation and availability test completed (Screenshots 19–22, Public Endpoint, Notes)
-- [ ] No sensitive data exposed
+- [X] Task 1: Architecture diagram and assumptions documented (Screenshots 1–2)
+- [X] Task 2: Network foundation created with isolated tiers (Screenshots 3–5)
+- [X] Task 3: Least-privilege security and secret management configured (Screenshots 6–7)
+- [X] Task 4: Presentation tier deployed (Screenshots 8–9)
+- [X] Task 5: Application tier deployed privately (Screenshots 10–12)
+- [X] Task 6: Managed database tier deployed privately (Screenshots 13–15)
+- [X] Task 7: Public entry, internal routing, and monitoring configured (Screenshots 16–18)
+- [X] Task 8: End-to-end validation and availability test completed (Screenshots 19–22, Public Endpoint, Notes)
+- [X] No sensitive data exposed
 
 ---
 
