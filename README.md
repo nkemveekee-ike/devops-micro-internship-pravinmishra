@@ -82,11 +82,10 @@ This is not a course. It is an internship-style program — real deployments, re
 
 [![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/)
 
-<!-- Week 08 → Terraform -->
-<!-- [![Week 08 – Terraform](./badges/week-08.svg)](./week-08-terraform/) -->
+ [![Week 08 – Terraform](./badges/week-08.svg)](./week-08-terraform/) 
 
-<!-- Week 09 → Ansible -->
-<!-- [![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/) -->
+
+[![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/) 
 
 <!-- Week 10 → Azure DevOps CI/CD -->
 <!-- [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) -->
@@ -131,7 +130,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | 06 | AWS Cloud |✅ Completed| ✅ Completed |https://lnkd.in/p/e9dZ7UEz|https://medium.com/@nkemveekee/more-than-version-control-what-git-actually-taught-me-about-collaboration-a0ff1bd6efdb?sharedUserId=nkemveekee|
 
-| 07 | Azure Cloud |✅ Completed|✅ Completed| https://lnkd.in/p/ejDuYyi8 |https://medium.com/@nkemveekee/a-working-azure-deployment-isnt-the-same-as-a-secure-one-3833902a1a28|
+| 07 | Azure Cloud |✅ Completed|✅ Completed|https://www.linkedin.com/posts/ekweozor_dmibypravinmishra-azure-agenticai-share-7500556245108449280-IMgV/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFzwtYB-RXnYG13TMOIwtIDL3APbwSz4XI |https://medium.com/@nkemveekee/a-working-azure-deployment-isnt-the-same-as-a-secure-one-3833902a1a28|
 
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 
